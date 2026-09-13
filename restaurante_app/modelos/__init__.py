@@ -1,0 +1,1 @@
+"""Entidades base del restaurante."""
