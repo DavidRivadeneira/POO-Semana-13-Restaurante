@@ -210,6 +210,9 @@ fuera de la carpeta de entrega.
 
 ## Entrega en GitHub
 
+Repositorio de esta actividad:
+[POO-Semana-13-Restaurante](https://github.com/DavidRivadeneira/POO-Semana-13-Restaurante).
+
 La consigna requiere un **nuevo repositorio público de Semana 13**. Publicar
 el contenido de esta carpeta conservando `restaurante_app/` y sus subcarpetas,
 con el README principal visible en la raíz. No entregar solamente un ZIP.
