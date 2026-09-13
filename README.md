@@ -31,7 +31,7 @@ servicios mantienen las operaciones y la lectura de archivos.
 - Se conserva el usuario `U001 - ana`, con sus campos `identificacion` y `nombre`.
   Se añaden `usuario` y `contrasena` para el acceso pedagógico de esta semana.
 - Se mantienen los constructores tradicionales, las propiedades y las
-  validaciones de los modelos. `Producto` conserva sus cuatro atributos.
+  validaciones básicas de texto, precio y stock. `Producto` conserva sus cuatro atributos.
 - Las listas contienen objetos y el servicio devuelve copias de las listas.
   El acceso utiliza un diccionario por nombre de usuario, aplicando la búsqueda
   por clave estudiada en Semana 12. Este índice se construye al cargar los datos.
@@ -44,6 +44,26 @@ Esta entrega es una **base gráfica simplificada e independiente**. Incluye
 la edición de datos quedan para próximas semanas. La versión de consola de
 Semana 12 permanece en su carpeta; sus ventas históricas no se importan aquí.
 El botón **Ventas (pendiente)** solo informa que la función se incorporará después.
+
+### Relación entre ambas entregas
+
+La consigna de Semana 13 pide expresamente comenzar con esta base simplificada.
+Por eso, las funciones de consola de Semana 12 no se trasladan todas a la interfaz
+gráfica en esta entrega. Esta distribución corresponde a las dos actividades:
+
+| Aspecto | Semana 12, recuperación | Semana 13 |
+| --- | --- | --- |
+| Interacción | Menú de consola con registros, búsquedas y ventas. | Login y panel gráfico para consultar información. |
+| Modelos | Producto, Usuario y Venta. | Producto y Usuario. |
+| Datos | Productos, usuarios y ventas en tres JSON. | Productos y usuarios en dos JSON. |
+| Trabajo principal | Búsquedas por índices, ventas por usuario y stock sincronizado. | Una ventana de Tkinter, eventos y consultas mediante servicios. |
+| Ventas | Operación funcional con descuento de stock. | Opción identificada como pendiente. |
+
+Los productos y los datos de identificación y nombre del usuario coinciden con
+la [Semana 12 corregida](https://github.com/DavidRivadeneira/POO-Semana-12-Restaurante).
+En Semana 13 se añaden las credenciales de demostración. Cada entrega conserva
+sus propios archivos JSON: los cambios futuros en una carpeta no modifican
+automáticamente la otra.
 
 ## Estructura
 
